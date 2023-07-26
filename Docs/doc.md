@@ -216,7 +216,7 @@ Afin de protéger les entrées/sorties, des diodes Schottky ont étés placées 
 
 ## Liens utiles
 
-- https://docs.arduino.cc/static/27f74a11b4f6250c112f22f6e086398b/ABX00028-datasheet.pdf
+- https://docs.arduino.cc/resources/datasheets/ABX00028-datasheet.pdf
 - https://www.mouser.be/pdfDocs/DRI0044_Web.pdf
 
 
