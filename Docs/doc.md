@@ -5,7 +5,7 @@
 
 Cette carte à pour objectif de protéger les entrées/sorties de la carte Arduino Nano Every. Elle met aussi à disposition différentes connectiques afin de simplifier le câblage. Ses principaux avantages sont :
 
-- Compatible avec les Arduino Uno
+- Compatible avec les Arduino Nano
 - Laisse accessible les tensions 3.3V/5V
 - 2 boutons poussoirs pour pouvoir déclencher des actions
 - Borniers à visser
