@@ -28,6 +28,7 @@ En cas d'inversion de polarité lors du raccordement de la batterie, le fusible 
 
 
 (1) : Cette limite provient de la tension maximale du driver DRI0044
+
 (2) : Le courant maximal que la carte Arduino Nano Every peut consommer est 1 A. Le reste du courant consommé est en fonction du driver moteur associé.
 
 ## Pinout
