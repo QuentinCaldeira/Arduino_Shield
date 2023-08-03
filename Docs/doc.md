@@ -3,17 +3,17 @@
 
 ## Introduction
 
-Cette carte à pour objectif de protéger les entrées/sorties de la carte Arduino Nano Every. Elle met aussi à disposition différentes connectiques afin de simplifier le câblage. Ses principaux avantages sont :
+Cette carte a pour objectif de protéger les entrées/sorties de la carte Arduino Nano Every. Elle met aussi à disposition différentes connectiques afin de simplifier le câblage. Ses principaux avantages sont :
 
 - Compatible avec les Arduino Nano
-- Laisse accessible les tensions 3.3V/5V
+- Laisse accessible les tensions 3.3 V/5 V
 - 2 boutons poussoirs pour pouvoir déclencher des actions
 - Borniers à visser
 - Prise en charge du driver moteur DRI0044
 
 ## Avertissement
 
-En cas d'inversion de polarité lors du raccordement de la batterie, le fusible devra sûrement être changer. Veuillez aussi contrôler l'intégrité de la diode associée.
+En cas d'inversion de polarité lors du raccordement de la batterie, le fusible devra sûrement être changé. Veuillez aussi contrôler l'intégrité de la diode associée.
 
 ## Valeurs maximales
 
@@ -38,8 +38,8 @@ En cas d'inversion de polarité lors du raccordement de la batterie, le fusible 
 Le pinout se fait de la sorte :
 - En Vert clair, les borniers permettant d'accéder au 5V ou 3V3
 - En Violet, le bornier permettant d'alimenter la carte
-- En Rouge, un grand bornier permettant d'accéder aux pattes analogiques de la UNO
-- En Bleu foncé, les connecteurs permettant de plugger des capteurs 3 broches
+- En Rouge, un grand bornier permettant d'accéder aux pattes analogiques de la Nano
+- En Bleu foncé, les connecteurs permettant de connecter des capteurs 3 broches
 - En Orange, les borniers permettant de câbler les moteurs
 - En Rose, l'emplacement du driver moteur DRI0044
 - En Jaune, les boutons poussoirs
@@ -49,11 +49,11 @@ Le pinout se fait de la sorte :
 
 
 ##### Borniers 5V ou 3V3 (Vert clair)
-Il y a trois borniers à disposition pour le 5V, et un bornier pour le 3V3. Il est à noté que la tension est **toujours** située à gauche, et la masse à droite.
+Il y a trois borniers à disposition pour le 5V, et un bornier pour le 3V3. Il est à noter que la tension est **toujours** située à gauche, et la masse à droite.
 
 ##### Bornier d'alimentation (Bleu clair)
 
-La tension d'alimentation est à appliquer dans **l'entrée gauche** du bornier, et la masse à droite. Une inversion de l'entrée détruira le fusible sur la carte. Il faudra alors contacter votre enseignant.
+La tension d'alimentation est à appliquer dans **l'entrée gauche** du bornier et la masse à droite. Une inversion de l'entrée détruira le fusible sur la carte. Il faudra alors contacter votre enseignant.
 
 ##### Driver moteur (Rose)
 
@@ -108,7 +108,7 @@ Il n'est pas possible d'utiliser un PUSHBUTTON1 et SENSOR1, ou PUSHBUTTON2 et SE
 
 ##### Borniers x8 (Rouge)
 
-Ce bornier permet de communiquer avec les pattes analogiques de l'Arduino Uno Every. Il est aussi possible d'utiliser ces pattes comme des entrées/sorties digitales. Il est cependant important de **ne pas** dépasser 5 V sur ces pins.
+Ce bornier permet de communiquer avec les pattes analogiques de l'Arduino Nano Every. Il est aussi possible d'utiliser ces pattes comme des entrées/sorties digitales. Il est cependant important de **ne pas** dépasser 5 V sur ces pins.
 
 ## Dimensions
 
@@ -116,7 +116,7 @@ Ce bornier permet de communiquer avec les pattes analogiques de l'Arduino Uno Ev
 
 ## Protection des entrées/sorties
 
-Afin de protéger les entrées/sorties, des diodes Schottky ont étés placées entre le pin et le +5 V, et entre le pin et la masse. Cette solution permet de limiter la tension d'entrée à 5 V, et empêche les tensions négatives. Une résistance de 270 $\Omega$ à été placée en série, afin de limiter le courant en cas de court-circuit.
+Afin de protéger les entrées/sorties, des diodes Schottky ont été placées entre le pin et le +5 V, et entre le pin et la masse. Cette solution permet de limiter la tension d'entrée à 5 V, et empêche les tensions négatives. Une résistance de 270 $\Omega$ a été placée en série, afin de limiter le courant en cas de court-circuit. De ce fait, une LED pourra être branchée sans résistance additionnelle. Veillez à bien calculer le courant nécessaire, sachant que pour 5 V le courant maximal sera de 18 mA.
 
 ![](Images/protection.png)
 
